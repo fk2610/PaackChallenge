@@ -1,0 +1,8 @@
+const DELIVERED = 'delivered';
+const UNDELIVERED = 'undelivered';
+const IDLE = 'idle';
+
+const DELIVERY_STATUS_ENUM = { DELIVERED, UNDELIVERED, IDLE };
+const ACTIVE_DELIVERIES = [DELIVERED, UNDELIVERED];
+
+export { DELIVERY_STATUS_ENUM, ACTIVE_DELIVERIES };
