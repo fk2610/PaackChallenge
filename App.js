@@ -9,10 +9,7 @@ import AppNavigator from './src/navigators/main';
 export default function App() {
   return (
     <Provider store={store}>
-      <NavigationContainer
-      // ref={navigationRef}
-      >
-        {/* <Text> App</Text> */}
+      <NavigationContainer>
         <AppNavigator />
       </NavigationContainer>
     </Provider>

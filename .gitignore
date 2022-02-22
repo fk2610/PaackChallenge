@@ -58,3 +58,7 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov

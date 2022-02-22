@@ -7,8 +7,8 @@ import React from 'react';
 import App from '../App';
 
 // Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import { renderWithContext } from '../src/utils/testsHelper';
 
 it('renders correctly', () => {
-  renderer.create(<App />);
+  renderWithContext(<App />);
 });
